@@ -17,7 +17,7 @@ export const Caption = ({ children, caption }: CaptionProps) => {
     >
       {children}
       <div
-        style={{ marginTop: '1rem', fontSize: '0.5rem', fontStyle: 'italic' }}
+        style={{ marginTop: '1rem', fontSize: '1rem', fontStyle: 'italic', color: '#666' }}
       >
         {caption}
       </div>
