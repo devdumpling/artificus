@@ -1,6 +1,7 @@
 export default {
   github: 'https://github.com/devdumpling/artificus',
   docsRepositoryBase: 'https://github.com/devdumpling/artificus/blob/master',
+  projectLink: 'httpsL//github.com/devdumpling/artificus',
   titleSuffix: ' – Artificus',
   logo: (
     <>
@@ -17,6 +18,7 @@ export default {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
       <meta name="description" content="Artificus: Welcome to The World" />
+      <meta property="og:title" content="Artificus: Welcome to the World" />
       <meta name="og:description" content="Artificus: Welcome to The World " />
       <meta name="apple-mobile-web-app-title" content="Artificus" />
       <link
