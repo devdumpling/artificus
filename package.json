@@ -1,6 +1,6 @@
 {
   "name": "artificus",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Artificus DnD campaign site",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "author": "Dev Wells",
   "license": "MIT",
   "dependencies": {
-    "@changesets/cli": "^2.24.4",    
+    "@changesets/cli": "^2.24.4",
     "next": "^12.3.0",
     "nextra": "^1.1.0",
     "nextra-theme-docs": "^1.2.6",
