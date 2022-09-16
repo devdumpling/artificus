@@ -3,19 +3,17 @@ lockfileVersion: 5.4
 specifiers:
   '@changesets/cli': ^2.24.4
   '@types/react': 18.0.20
-  artificus: 'link:'
-  next: ^12.1.0
+  next: ^12.3.0
   nextra: ^1.1.0
   nextra-theme-docs: ^1.2.6
-  prettier: ^2.0.5
-  react: ^17.0.1
-  react-dom: ^17.0.1
+  prettier: ^2.7.1
+  react: ^17.0.2
+  react-dom: ^17.0.2
   typescript: 4.8.3
   webpack: ^5.74.0
 
 dependencies:
   '@changesets/cli': 2.24.4
-  artificus: 'link:'
   next: 12.3.0_sfoxds7t5ydpegc3knd667wn6m
   nextra: 1.1.0_z3yk7izmwsoahwplgcmcxkn2yu
   nextra-theme-docs: 1.2.6_r23j3nsd2exasrlwue2yrjvizy
@@ -53,7 +51,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-validator-identifier': 7.19.1
-      chalk: 2.3.0
+      chalk: 2.4.2
       js-tokens: 4.0.0
     dev: false
 
@@ -121,7 +119,7 @@ packages:
       '@types/is-ci': 3.0.0
       '@types/semver': 6.2.3
       ansi-colors: 4.1.3
-      chalk: 2.3.0
+      chalk: 2.4.2
       enquirer: 2.3.6
       external-editor: 3.1.0
       fs-extra: 7.0.1
@@ -161,7 +159,7 @@ packages:
     dependencies:
       '@changesets/types': 5.1.0
       '@manypkg/get-packages': 1.1.3
-      chalk: 2.3.0
+      chalk: 2.4.2
       fs-extra: 7.0.1
       semver: 5.7.1
     dev: false
@@ -196,7 +194,7 @@ packages:
   /@changesets/logger/0.0.5:
     resolution: {integrity: sha512-gJyZHomu8nASHpaANzc6bkQMO9gU/ib20lqew1rVx753FOxffnCrJlGIeQVxNWCqM+o6OOleCo/ivL8UAO5iFw==}
     dependencies:
-      chalk: 2.3.0
+      chalk: 2.4.2
     dev: false
 
   /@changesets/parse/0.3.14:
@@ -224,7 +222,7 @@ packages:
       '@changesets/logger': 0.0.5
       '@changesets/parse': 0.3.14
       '@changesets/types': 5.1.0
-      chalk: 2.3.0
+      chalk: 2.4.2
       fs-extra: 7.0.1
       p-filter: 2.1.0
     dev: false
@@ -536,12 +534,12 @@ packages:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
       '@types/eslint': 8.4.6
-      '@types/estree': 1.0.0
+      '@types/estree': 0.0.51
 
   /@types/eslint/8.4.6:
     resolution: {integrity: sha512-/fqTbjxyFUaYNO7VcW5g+4npmqVACz1bB7RTHYuLj+PRjw9hrCwrUXVQFpChUS0JsyEFvMZ7U/PfmvWgxJhI9g==}
     dependencies:
-      '@types/estree': 1.0.0
+      '@types/estree': 0.0.51
       '@types/json-schema': 7.0.11
 
   /@types/estree-jsx/1.0.0:
@@ -555,6 +553,7 @@ packages:
 
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
+    dev: false
 
   /@types/hast/2.3.4:
     resolution: {integrity: sha512-wLEm0QvaoawEDoTRwzTXp4b4jpwiJDvR5KMnFnVodm3scufTlBOWRD6N1OBf9TZMhjlNsSfcO5V+7AF4+Vy+9g==}
@@ -958,10 +957,6 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /caniuse-lite/1.0.30001399:
-    resolution: {integrity: sha512-4vQ90tMKS+FkvuVWS5/QY1+d805ODxZiKFzsU8o/RsVJz49ZSRR8EjykLJbqhzdPgadbX6wB538wOzle3JniRA==}
-    dev: false
-
   /caniuse-lite/1.0.30001402:
     resolution: {integrity: sha512-Mx4MlhXO5NwuvXGgVb+hg65HZ+bhUYsz8QtDGDo2QmaJS2GBX47Xfi2koL86lc8K+l+htXeTEB/Aeqvezoo6Ew==}
 
@@ -980,6 +975,15 @@ packages:
       ansi-styles: 3.2.1
       escape-string-regexp: 1.0.5
       supports-color: 4.5.0
+    dev: false
+
+  /chalk/2.4.2:
+    resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
+    engines: {node: '>=4'}
+    dependencies:
+      ansi-styles: 3.2.1
+      escape-string-regexp: 1.0.5
+      supports-color: 5.5.0
     dev: false
 
   /chalk/4.1.2:
@@ -1783,6 +1787,11 @@ packages:
   /has-flag/2.0.0:
     resolution: {integrity: sha512-P+1n3MnwjR/Epg9BBo1KT8qbye2g2Ou4sFumihwt6I4tsUX7jnLcX4BTOSKg/B1ZrIYMN9FcEnG4x5a7NB8Eng==}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /has-flag/3.0.0:
+    resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
+    engines: {node: '>=4'}
     dev: false
 
   /has-flag/4.0.0:
@@ -2938,7 +2947,7 @@ packages:
     dependencies:
       '@next/env': 12.3.0
       '@swc/helpers': 0.4.11
-      caniuse-lite: 1.0.30001399
+      caniuse-lite: 1.0.30001402
       postcss: 8.4.14
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -3849,6 +3858,13 @@ packages:
     engines: {node: '>=4'}
     dependencies:
       has-flag: 2.0.0
+    dev: false
+
+  /supports-color/5.5.0:
+    resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
+    engines: {node: '>=4'}
+    dependencies:
+      has-flag: 3.0.0
     dev: false
 
   /supports-color/7.2.0:
