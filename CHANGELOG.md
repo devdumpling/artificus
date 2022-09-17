@@ -1,5 +1,11 @@
 # artificus
 
+## 1.2.0
+
+### Minor Changes
+
+- feat: collection of poems on magic
+
 ## 1.1.0
 
 ### Minor Changes
