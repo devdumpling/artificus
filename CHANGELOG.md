@@ -1,5 +1,11 @@
 # artificus
 
+## 1.2.1
+
+### Patch Changes
+
+- Fixed a typo in the date of session 0 (9.20.22 -> 9.18.22)
+
 ## 1.2.0
 
 ### Minor Changes
