@@ -1,5 +1,11 @@
 # artificus
 
+## 1.2.2
+
+### Patch Changes
+
+- Bumps to a new version of Nextra (which is still in beta) - v2.0.0-beta.25. This includes a new look and config options, as well as an improved search.
+
 ## 1.2.1
 
 ### Patch Changes
