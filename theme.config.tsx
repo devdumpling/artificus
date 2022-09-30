@@ -1,8 +1,15 @@
+import { useRouter } from 'next/router';
+
 export default {
-  github: 'https://github.com/devdumpling/artificus',
+  project: {
+    link: 'https://github.com/devdumpling/artificus',
+  },
   docsRepositoryBase: 'https://github.com/devdumpling/artificus/blob/master',
-  projectLink: 'httpsL//github.com/devdumpling/artificus',
-  titleSuffix: ' – Artificus',
+  titleSuffix: () => {
+    const { route } = useRouter();
+    if (route === '/') return '';
+    return ' – Artificus';
+  },
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">Artificus</span>
@@ -11,7 +18,7 @@ export default {
       </span>
     </>
   ),
-  head: (
+  head: () => (
     <>
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="theme-color" content="#ffffff" />
@@ -56,11 +63,20 @@ export default {
       />
     </>
   ),
-  search: true,
-  prevLinks: true,
-  nextLinks: true,
-  footer: true,
-  footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © devdumpling.</>,
+  navigation: {
+    prev: true,
+    next: true,
+  },
+  footer: {
+    text: `MIT ${new Date().getFullYear()} © devdumpling,`,
+  },
+  editLink: 'Edit this page on GitHub',
+  toc: {
+    float: true,
+  },
+  sidebar: {
+    defaultMenuCollapsed: true,
+    subtitle: ({ title }) => <>{title}</>,
+  },
   unstable_faviconGlyph: '🐉',
 };
