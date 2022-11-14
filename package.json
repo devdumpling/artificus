@@ -1,6 +1,6 @@
 {
   "name": "artificus",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Artificus DnD campaign site",
   "main": "index.js",
   "scripts": {
