@@ -1,5 +1,12 @@
 # artificus
 
+## 1.2.3
+
+### Patch Changes
+
+- Records: The En Nirlith Directive
+- 2ccaa05: Adds session 1 to homepage
+
 ## 1.2.2
 
 ### Patch Changes
