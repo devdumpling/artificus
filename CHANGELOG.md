@@ -1,5 +1,16 @@
 # artificus
 
+## 1.2.5
+
+### Patch Changes
+
+- af66cb2: Fix typos and language in Colleceted Histories of Primitive Worlds
+- 9520e5d: Fix a typo in A Brief Timeline of Very Recent Events For All
+- 139f736: Update pantheon
+- 6689173: Adds map of Evergreen Mile
+- Update session dates
+- c08a26a: Update character page with better descriptions
+
 ## 1.2.4
 
 ### Patch Changes
