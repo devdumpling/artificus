@@ -1,5 +1,0 @@
----
-'artificus': patch
----
-
-Update pantheon
