@@ -1,5 +1,11 @@
 # artificus
 
+## 1.4.1
+
+### Patch Changes
+
+- Fix: add link to king in session 3 recap
+
 ## 1.4.0
 
 ### Minor Changes
