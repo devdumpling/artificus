@@ -2,31 +2,33 @@
   "name": "artificus",
   "version": "1.2.5",
   "description": "Artificus DnD campaign site",
+  "license": "MIT",
+  "author": "Dev Wells",
   "main": "index.js",
   "scripts": {
+    "build": "next build",
+    "clean": "rimraf .next node_modules",
     "dev": "next",
-    "ver": "changeset version",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
     "start": "next start",
-    "build": "next build"
+    "ver": "changeset version"
   },
-  "author": "Dev Wells",
-  "license": "MIT",
+  "prettier": {
+    "singleQuote": true
+  },
   "dependencies": {
     "@changesets/cli": "^2.24.4",
-    "next": "^12.3.0",
-    "nextra": "^2.0.0-beta.25",
-    "nextra-theme-docs": "^2.0.0-beta.25",
+    "next": "13.3.0",
+    "nextra": "^2.4.1",
+    "nextra-theme-docs": "^2.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "18.0.20",
+    "@types/react": "^18.0.20",
     "prettier": "^2.7.1",
-    "typescript": "4.8.3",
-    "webpack": "^5.74.0"
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.4"
   },
-  "packageManager": "pnpm@7.9.5",
-  "prettier": {
-    "singleQuote": true
-  }
+  "packageManager": "pnpm@8.1.0"
 }

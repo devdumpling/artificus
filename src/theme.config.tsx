@@ -1,23 +1,18 @@
-import { useRouter } from 'next/router';
-
 export default {
   project: {
     link: 'https://github.com/devdumpling/artificus',
   },
   docsRepositoryBase: 'https://github.com/devdumpling/artificus/blob/master',
-  titleSuffix: () => {
-    const { route } = useRouter();
-    if (route === '/') return '';
-    return ' – Artificus';
-  },
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">Artificus</span>
-      <span className="text-gray-600 font-normal hidden md:inline">
-        Welcome to The World
-      </span>
     </>
   ),
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – Artificus',
+    };
+  },
   head: () => (
     <>
       <meta name="msapplication-TileColor" content="#ffffff" />
@@ -67,16 +62,17 @@ export default {
     prev: true,
     next: true,
   },
+  chat: {
+    link: 'https://discord.com/channels/1019419948612857926/1019419948612857929',
+  },
+  sidebar: {
+    toggleButton: true,
+  },
   footer: {
     text: `MIT ${new Date().getFullYear()} © devdumpling,`,
   },
-  editLink: 'Edit this page on GitHub',
   toc: {
     float: true,
   },
-  sidebar: {
-    defaultMenuCollapsed: true,
-    subtitle: ({ title }) => <>{title}</>,
-  },
-  unstable_faviconGlyph: '🐉',
+  faviconGlyph: '🐉',
 };
