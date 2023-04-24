@@ -1,5 +1,11 @@
 # artificus
 
+## 1.3.0
+
+### Minor Changes
+
+- Introduce new characters and recap sections while updating next to latest
+
 ## 1.2.5
 
 ### Patch Changes
