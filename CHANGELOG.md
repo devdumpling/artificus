@@ -1,5 +1,11 @@
 # artificus
 
+## 1.4.0
+
+### Minor Changes
+
+- Character updates and session 3 recap
+
 ## 1.3.0
 
 ### Minor Changes
